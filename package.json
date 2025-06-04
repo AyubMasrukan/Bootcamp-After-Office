@@ -1,0 +1,23 @@
+{
+  "name": "tugas_4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@badeball/cypress-configuration": "^6.1.1",
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "@cypress/webpack-preprocessor": "^6.0.4",
+    "cypress": "^14.4.0",
+    "esbuild": "^0.20.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/step_definitions"
+  }
+}
