@@ -1,0 +1,7 @@
+node_modules/
+.env
+dist/
+package-lock.json
+kalkulator.js
+klasifikasi-usia.js
+package.json
